@@ -4,6 +4,7 @@ public class Main {
         Pokemon pikachu = new Pokemon("pikachu", 45, 4, false);    //objet (instance classe pikachu)
         Pokemon salameche = new Pokemon( "salameche");
         Pokemon bulbizarre = new Pokemon (50);
+        Pokemon carapuce = new Pokemon ("carapuce", 43);
 
 
         System.out.println(pikachu.capture);
@@ -23,6 +24,9 @@ public class Main {
 
         System.out.println(salameche.nom);
         System.out.println(bulbizarre.pointDeVie);
+
+        System.out.println(carapuce.nom);
+        System.out.println(carapuce.pointDeVie);
 
     }
 }
